@@ -1,0 +1,9 @@
+#...................................................................
+#: Kua: Launcher : Copyright (C) 2022 sOkam! : GNU GPLv3 or higher :
+#...................................................................
+
+import nimraylib_now as rl ; export rl
+import strformat           ; export strformat
+
+#................................
+converter toVector2*(tup :tuple[x,y :int]) :Vector2= Vector2(x: tup.x.float, y: tup.y.float)
